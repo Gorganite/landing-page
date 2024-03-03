@@ -19,6 +19,7 @@
 .main-navigation {
   margin-left: auto;
   font-size: 18px;
+  color: #e5e7eb;
 }
 
 .main-navigation ul {
@@ -37,7 +38,43 @@
   color: #e5e7eb;
 }
 
+.main-text {
+  background-color: #1f2937;
+  display: flex;
+  padding: 0.5em;
+}
+
+.text h2 {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 10%;
+  margin-top: 1rem;
+}
+.image {
+  background-color: #747575;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.placeholder {
+  text-align: center;
+}
 /* Footer Section */
 footer {
   background-color: #1f2937;
+  padding: 0.5em;
 }
